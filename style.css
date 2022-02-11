@@ -1,0 +1,692 @@
+::placeholder {
+    color: #878d8a;
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 90vh 80vh 80vh;
+    overflow-x: hidden;
+}
+
+#e-nabiz-logo {
+    width: 100%;
+    height: 280px;
+}
+
+#sign-in-button img{
+    width: 45px;
+    height: 30px;
+}
+
+.lists img {
+    width: 10px;
+}
+
+#download-logos img {
+    width: 120px;
+}
+
+#social-media img {
+    width: 70px;
+}
+
+.login-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#inputs input{
+    width: 350px;
+    height: 60px;
+    text-align: left;
+    margin: 5px;
+    border: 1px solid #c2c9c5;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+
+#buttons {
+    margin-right: 175px;
+    margin-top: 10px;
+}
+
+#buttons button {
+    background-color: #0043b3;
+    color: aliceblue;
+    font-size: 9.5px;
+    width: 45px;
+    height: 27.5px;
+    border: none;
+    cursor: pointer;
+}
+
+#buttons button:hover {
+    box-shadow: -1px 4px 0px -1px rgba(92,87,87,0.23);
+}
+
+#buttons a {
+    color: #a9adab;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+#buttons a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#lang {
+    margin-right: 266px;
+    margin-top: 15px;
+}
+
+#lang a {
+    text-decoration: none;
+    color: #6a83f1;
+    font-size: 14px;
+    
+}
+
+#lang a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.first-content {
+    color: #a9adab;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.3rem;
+    margin-top: 10px;
+    margin-right: 55px;
+}
+
+#sign-in-button button {
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(230, 17, 17);
+    color: #fff;
+    font-size: 12px;
+    width: 325px;
+    border: 2px solid rgb(230, 17, 17);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-right: 25px;
+    margin-top: 100px;
+    height: 50px;
+    bottom: 40px;
+}
+
+#sign-in-button button:hover {
+    background-color: rgb(206, 19, 19);
+}
+
+#sign-in-button img {
+    position: absolute;
+    right: 278px;
+    height: 48px;
+    bottom: 0.01rem;
+}
+
+#last-link {
+    position: relative;
+    text-decoration: none;
+    color: #a9adab;
+    font-size: 13px;
+    bottom: 20px;
+}
+
+#last-link:hover {
+    color: black;
+    text-decoration: underline;
+} 
+
+.info-window {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 12%;
+    background-image: url(images/enabiz-giris-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#nav ul li {
+    display: inline-block;
+}
+
+#nav ul li button {
+    border: none;
+    font-size: 14px;
+    color: #202220;
+    border-radius: 3px;
+    background-color: #c2c9c5;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#nav ul li button:hover {
+    background-color: aliceblue;
+    opacity: 1;
+}
+
+#btn1 {
+    width: 120px;
+    height: 30px;
+}
+
+#btn2 {
+    width: 120px;
+    height: 30px;
+}
+
+#btn3 {
+    width: 110px;
+    height: 30px;
+}
+
+#btn4 {
+    width: 60px;
+    height: 30px;
+}
+
+#subtitle {
+    position: relative;
+    font-size: 15px;
+    line-height: 23px;
+    margin-left: 50px;
+    bottom: 20px;
+    color: black;
+}
+
+#windows {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
+
+.link button {
+    width: 260px;
+    height: 240px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: none;
+    opacity: 0.95;
+    cursor: pointer;
+    box-shadow: 6px 7px 40px -1px rgba(133,133,133,0.81);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link button:hover {
+    opacity: 1;
+    box-shadow: 12px 13px 40px -1px rgba(133,133,133,0.81);
+}
+
+.link button a, p {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link button a {
+    font-size: 15px;
+}
+
+.link button p {
+    font-size: 12px;
+}
+
+#link1 img {
+    width: 100px;
+    padding-top: 15px;
+}
+
+#link2 img {
+    width: 80px;
+    padding-bottom: 15px;
+}
+
+#link3 img {
+    width: 80px;
+    padding-bottom: 15px;
+}
+
+#link4 img {
+    width: 80px;
+    padding-bottom: 15px;
+}
+
+#link5 img {
+    width: 80px;
+    padding-bottom: 15px;
+}
+
+#link6 img {
+    width: 80px;
+    padding-bottom: 15px;
+}
+
+#link1 button {
+    background-color: #da251ce6;
+}
+
+#link2 button {
+    background-color: #a169e7;
+}
+
+#link3 button {
+    background-color: #38beae;
+}
+
+#link4 button {
+    background-color: #5ab0eee6;
+}
+
+#link5 button {
+    background-color: #ee7d22e6;
+}
+
+#link6 button {
+    background-color: #bd2888;
+}
+
+.lists {
+    background-color: #2c3c56;
+    position: relative;
+    height: 800px;
+}
+
+.lists ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.lists ul li a:hover {
+    color: #5986d4;
+}
+
+.lists ul li {
+    text-align: left;
+    list-style: none;
+    position: relative;
+    top: 15px;
+    border-bottom: 0.6px solid #2f4b7c;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.lists ul li img {
+    margin-right: 8px;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 40% 40%;
+    grid-template-areas: 
+                        "hastane eczane"
+                        "VKI VKI"
+                        "kalp-krizi-riski-hesaplama kalp-krizi-riski-hesaplama"
+                        "sporcu-sagligi sporcu-sagligi"
+                        "footers footers";
+    grid-gap: 15px;
+}
+
+#hastane {
+    grid-area: hastane;
+}
+
+#eczame {
+    grid-area: eczane;
+}
+
+#VKI {
+    grid-area: VKI;
+}
+
+#kalp-krizi-riski-hesaplama {
+    grid-area: kalp-krizi-riski-hesaplama;
+}
+
+#sporcu-sagligi {
+    grid-area: sporcu-sagligi;
+}
+
+#footers {
+    grid-area: footers;
+}
+
+.map {
+    margin-top: 40px;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 575px;
+    height: 300px;
+    box-shadow: 3px 4px 9px -4px rgba(85,73,73,0.75);
+}
+
+.map img {
+    width: 500px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.map h3 {
+    margin-left: 330px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+#eczane h3 {
+    margin-left: 280px;
+}
+
+#VKI {
+    width: 1250px;
+    margin-left: 32px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 3px 4px 9px -4px rgba(85,73,73,0.75);
+}
+
+#VKI h4 {
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    left: 1040px;
+    bottom: 40px;
+}
+
+.inp-VKI h5 {
+    color: #333333;
+    font-size: 13px;
+    position: relative;
+    left: 50px;
+}
+
+.inp-VKI input {
+    width: 1150px;
+    border: 1px solid #a9adab;
+    border-radius: 4px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding: 12px 20px;
+}
+
+.inp-VKI input:focus {
+    outline: none;
+    border: 1px solid #5ab0ee;
+}
+
+#VKI button {
+    width: 80px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: #fff;
+    border-style: solid;
+    color: #5ab0ee;
+    border-color: #5ab0ee;
+    cursor: pointer;
+    position: relative;
+    left: 1125px;
+    top: 30px;
+}
+
+#VKI button:hover {
+    color: #fff;
+    background-color: #5ab0ee;
+}
+
+#boy {
+    padding-bottom: 20px;
+}
+
+#kalp-krizi-riski-hesaplama {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1250px;
+    margin-left: 32px;
+    margin-top: 30px;
+    box-shadow: 3px 4px 9px -4px rgba(85,73,73,0.75);
+}
+
+#kalp-krizi-riski-hesaplama .h5 h5 {
+    color: #333333;
+    font-size: 13px;
+    position: relative;
+    left: 50px;
+}
+
+#yas h4 {
+    position: relative;
+    left: 1000px;
+    bottom: 30px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#kalp-krizi-riski-hesaplama select {
+    width: 370px;
+    height: 40px;
+    border: 1px solid #a9adab;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#subtitle-1, #subtitle-2, #subtitle-3 {
+    position: relative;
+    left: 20px;
+}
+
+#yas {
+    position: relative;
+    bottom: 11px;
+}
+
+#kolestrol, #kan-basinci select {
+    position: relative;
+    right: 125px;
+}
+
+#kolestrol {
+    position: relative;
+    bottom: 55px;
+    margin-left: 40px;
+}
+
+#kan-basinci {
+    position: relative;
+    bottom: 55px;
+}
+
+#subtitle-4 {
+    position: relative;
+    left: 19px;
+}
+
+#subtitle-5 {
+    position: relative;
+    right: 105px;
+}
+
+#kalp-krizi-riski-hesaplama button {
+    position: relative;
+    top: 25px;
+    right: 923px;
+}
+
+#hesapla {
+    position: relative;
+    left: 60px;
+    width: 80px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: #fff;
+    border-style: solid;
+    color: #5ab0ee;
+    border-color: #5ab0ee;
+    cursor: pointer;
+}
+
+#a-hesapla {
+    width: 120px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: #fff;
+    border-style: solid;
+    color: #5ab0ee;
+    border-color: #5ab0ee;
+    cursor: pointer;
+}
+
+#hesapla:hover, #a-hesapla:hover {
+    color: #fff;
+    background-color: #5ab0ee;
+}
+
+#sporcu-sagligi {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    width: 95%;
+    display: flex;
+    border-bottom: 1px solid #878d8a;
+}
+
+#sporcu-sagligi a img {
+    margin-left: 40px;
+}
+
+#text {
+    text-decoration: none;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+#footers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footers h5 {
+    color: #333333;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#footers p {
+    color: #333333;
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 20px;  
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#footers h3 {
+    padding-top: 35px;
+    color: #333333;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#logos {
+    position: relative;
+    right: 350px;
+    top: 70px;
+}
+
+#logos h3 {
+    position: relative;
+    bottom: 26px;
+    color: #878d8a;
+}
+
+#download-logos a img {
+    width: 170px;
+    border-radius: 10px;
+}
+
+#social-media {
+    position: relative;
+    top: 100px;
+    right: 400px;
+}
+
+#social-media a img {
+    width: 100px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.foot a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #333333;
+    padding-top: 18px;
+}
+
+.foot {
+    position: relative;
+    top: 100px;
+    right: 505px;
+    height: 300px;
+}
